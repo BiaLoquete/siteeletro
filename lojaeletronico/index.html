@@ -1,0 +1,347 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Innovative</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+    crossorigin="anonymous"></script>
+    <style>
+     .logo{
+        width: 90px;
+     }
+     #primeiro{
+        padding: 0;
+     }
+     
+     #prod img{
+        transition: 0.5s;
+        width: 200px;
+     }
+     #prod img:hover{
+        scale: 1.1;
+        transition: 0.5s;
+     }
+     .venda1, .venda2, .venda3, .venda4{
+        text-align: left;
+        padding: 10px;
+        border-radius: 10px;
+        
+     }
+    
+     #head{
+        background-color: black;
+     }
+     .bttver {
+            background-color: rgb(2, 2, 173);
+            border-radius: 50px;
+            border: none;
+            font-size: 15px;
+            color: white;
+            width: 100px;
+            height: 40px;
+            margin: 10px;
+    }
+
+    .pbtt{
+        padding: 10px;
+    }
+  
+    .col-md-12{
+        text-align: left;
+    }
+    #suportete1, #suportete2, #suportete2, #suportete3, #suportete4, #suportete5, #suportete6, #suportete8{
+        text-align: left;
+        padding: 35px;
+    }
+    #email{
+        text-align: center;
+    }
+
+    #inicio{
+        display: flex;
+        display: space-between;
+    }
+    
+    .produto-borda {
+        border: 1px solid #2a1818;
+        padding: 5px;
+        margin-bottom: 10px;
+        border-radius: 30px;
+        width: 400px;
+    }
+
+   p{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   }
+
+   .textosuporte{
+    box-shadow: 6px 6px 10px 2px rgba(0, 0, 0, 0.306);
+    transition: 1s ease-in-out;
+    padding: 15px;
+    border-radius: 10px;
+    height: 270px;
+   }
+    
+   @media(max-width:600px){
+    #comparacao{
+        display: none;
+    }
+   }
+    </style>
+</head>
+    <body>
+
+    <!-- #header do site -->
+    <nav class="navbar navbar-expand-lg bg-body-tertiary pt-0" id="primeiro">
+        <div class="container-fluid" id="head">
+            <img class="logo" src="img/Captura de tela 2023-09-22 144217 1.png" alt="">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+                <ul class="navbar-nav mb-2 mb-lg-0" id="inicio">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" style="color: #ffffff;" href="#prod">Ofertas</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" style="color: #ffffff;" href="#comparacao">Comparação</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" style="color: #ffffff;" href="#tisuporte">Suporte</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="#">
+                            <a href="https://wa.me/5511997444057"> <button class="btn btn-success" ><i class="fa-brands fa-whatsapp" style="color: #ffffff;" ></i> Fale Conosco</button></a>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+                                    
+
+                                       <!-- carrosel -->
+    <div class="container-fluid" style="padding: 0;">
+        <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="img/image 3.png" class="d-block w-100" alt="..." >
+              </div>
+              <div class="carousel-item">
+                <img src="img/image 4.png" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="img/image 9.png" class="d-block w-100" alt="...">
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+    </div>
+
+                                    <!-- tipo de produtos -->
+    <div class="container-fluid">
+        <div class="row  pt-5 text-center" id="prod">
+            <div class="col-md-3" id="pr">
+                <img src="img/smart.png" alt="">
+                <br><br>
+                <p><B>SMARTPHONE</B></p>
+            </div>
+            <div class="col-md-3">
+                <img src="img/not.png" alt="">
+                <br><br>
+                <p><B>NOTEBOOK</B></p>
+            </div>
+            <div class="col-md-3">
+                <img src="img/tv.png" alt="">
+                <br><br>
+                <p><B>TV´S</B></p>
+            </div>
+            <div class="col-md-3">
+                <img src="img/kindle.png" alt="">
+                <br><br>
+                <p><B>KINDLE</B></p>
+            </div>
+        </div>  
+        
+
+
+                                 <!-- ofertas de produtos -->
+        <div class="row text-center pt-5" style="gap: 150px; padding: 150px;" id="prod">
+            <div class="col-md-6 produto-borda" id="venda1">
+                <img src="img/vend1.png" alt="">
+                <br><br>
+                <div  class="venda">
+                    <p>Smartphone Samsung Galaxy A34 5G 128GB Tela 6.6'' Verde Lima Dual Chip 6GB RAM </p>
+                    <p>de R$2599.00</p>
+                    <h4 style="color: blue;"><b>por R$1.399,00</b></h4>
+                    <p>Em até 10x de R$155,44 sem juros</p>
+                    <div class="col-md-12" id="botaomais" style="text-align: center;">
+                        <button class="bttver"><p class="pbtt">Ver</b></p></button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 produto-borda" id="venda2">
+                <img src="img/vend2.webp" alt="">
+                <br><br>
+                <div class="venda">
+                    <p>Notebook VAIO FE15 15.6" i5 8GB RAM 512GB SSD Windows 11 VJFE55F11X-B0211H</p>
+                    <p>de R$3199.00</p>
+                    <h4 style="color: blue;"><b>R$ 2.599,00</b></h4>
+                    <p>Em até 10x de R$ 288,78 sem juros</p>
+                    <div class="col-md-12" id="botaomais" style="text-align: center;">
+                        <button class="bttver"><p class="pbtt">Ver</b></p></button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 produto-borda" id="venda3">
+                <img src="img/vend3.webp" alt="">
+                <br><br>
+                <div class="venda">
+                    <p>Smart TV Samsung 50" UHD 4K Processador Crystal UN50CU8000GXZD</p>
+                    <p>de R$3999.00</p>
+                    <h4 style="color: blue;"><b>por R$2.132,10</b></h4>
+                    <p>Em até 10x de R$236,90 sem juros</p>
+                    <div class="col-md-12" id="botaomais" style="text-align: center;">
+                        <button class="bttver"><p class="pbtt">Ver</b></p></button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 produto-borda" id="venda4">
+                <img src="img/vend4.jpg" alt="">
+                <br><br>
+                <div class="venda">
+                    <p>Kindle 11ª Geração Amazon, 16 GB Azul, Luz Integrada, Wifi - B09SWV1FSS</p>
+                    <p>de R$493,68</p>
+                    <h4 style="color: blue;"><b>por R$399,00</b></h4>
+                    <p>Em até 10x de R$42,00 sem juros no cartão</p>
+                    <div class="col-md-12" id="botaomais" style="text-align: center;">
+                        <button class="bttver"><p class="pbtt">Ver</b></p></button>
+                    </div>
+                </div>
+            </div>
+           
+        </div>  
+        
+                                   <!-- comparação -->
+        <div class="row pt-5 text-center" id="comparacao">
+            <div class="col-md-12">
+                <h4 style="font-size: 34px; text-align: center;"><B>INFORMAÇÕES SOBRE OS PRODUTOS:</B></h4>
+            </div>
+            <div class="col-md-6 pt-5" id="">
+                <div class="">
+                    <p>Celular</p>
+                     <img class="imagemresponsivo" style="width: 500px; border-radius: 20px;" src="img/inform1.PNG" alt="">
+                </div>
+            </div>
+            <div class="col-md-6 pt-5" id="">
+                <div class="">
+                    <p>Notebook</p>
+                     <img class="imagemresponsivo" style="width: 500px; border-radius: 20px;" src="img/inform2.PNG" alt="">
+                </div>
+            </div>
+            <div class="col-md-6 pt-5" id="">
+                <div class="">
+                    <p>TV</p>
+                     <img class="imagemresponsivo" style="width: 500px; border-radius: 20px;" src="img/inform3.PNG" alt="">
+                </div>
+            </div>
+            <div class="col-md-6 pt-5" id="">
+                <div class="">
+                    <p id="textoinform">Kindle</p>
+                     <img class="imagemresponsivo" style="width: 500px; border-radius: 20px;" src="img/inform4.PNG" alt="">
+                </div>
+            </div>
+        </div>
+                        
+                                   
+                                 <!-- suporte -->
+                            
+        <div class="row  pt-5 text-center" id="tisuporte">
+            <div class="col-md-12">
+                <h4 style="font-size: 34px;"><B>SUPORTE TÉCNICO</B></h4>
+                <img src="img/Rectangle 4.png" alt="">
+            </div>
+            <div class="col-md-4" id="suportete8">
+                <div class="textosuporte">
+                    <p>- Se o seu computador não está ligando ou há problemas com hardware, entre em contato conosco;</p>
+                    <p>- Verifique se todos os cabos estão conectados corretamente;</p>
+                    <p>- Se houver problemas com periféricos (teclado, mouse, etc.), certifique-se de que estão bem conectados e que os drivers estão atualizados.</p>
+                </div>
+            </div>
+            <div class="col-md-4" id="suportete1">
+                <div class="textosuporte">
+                    <p>- Se o problema está relacionado ao sistema operacional (Windows, macOS, Linux), você pode procurar soluções em fóruns online específicos para o seu sistema operacional;</p>
+                    <p>- Problemas com aplicativos ou programas podem muitas vezes ser resolvidos reinstalando o software ou verificando se há atualizações disponíveis.</p>
+                </div>
+            </div>
+            <div class="col-md-4" id="suportete2">
+                <div class="textosuporte">
+                    <p>- Mantenha um programa antivírus atualizado e faça verificações regularmente para evitar infecções por malware.</p>
+                    <p>- Evite clicar em links suspeitos ou baixar arquivos de fontes não confiáveis para reduzir o risco de malware.</p>
+                </div>
+            </div>
+            <hr>
+            <div class="col-md-4" id="suportete3">
+                <div class="textosuporte">
+                    <p>- Se a TV tiver imagem, mas sem sinal, verifique as conexões do cabo HDMI. Caso não houver imagem, mas ela ligar, pode haver um problema interno. Entre em contato. </p>
+                </div>
+            </div>
+            <div class="col-md-4" id="suportete4">
+                <div class="textosuporte">
+                    <p>- Se você está tendo problemas com livros no Kindle não sendo baixados ou sincronizados corretamente, verifique sua conexão Wi-Fi. Se o problema persistir, tente sincronizar manualmente seu dispositivo no menu de configurações. </p>
+                </div>
+            </div>
+            <div class="col-md-4" id="suportete5">
+                <div class="textosuporte">
+                    <p>- Certifique-se de que seu Kindle está com o software mais recente instalado. Você pode verificar isso nas configurações do dispositivo.</p>
+                </div>
+            </div>
+            <div class="col-md-12" id="email">
+                <div class="">
+                    <img src="img/email.png" alt="">
+                    <br><br>
+                    <p>Ainda precisa de ajuda? Entre em contato através do e-mail: innovative.eletronicos@gmail.com</p>
+                </div>
+            </div>
+
+           
+        </div>  
+       
+
+                                <!-- #garantia -->
+        <div class="row  pt-5 text-center" id="tisuporte">
+            <div class="col-md-12">
+                <h4 style="font-size: 34px;"><B>SOBRE A GARANTIA</B></h4>
+                <img src="img/Rectangle 4.png" alt="">
+            </div>
+            <div class="col-md-12" id="suportete6">
+                <div class="">
+                    <p>- Nos casos em que forem constatados defeitos de fabricação, o Consumidor poderá solicitar a troca dentro do prazo de garantia de 1 ano, contado a partir do recebimento do produto. Para solicitar a troca, o Consumidor deverá entrar em contato com nosso suporte via whatsapp – (11) 0000-0000 ou email- innovative.eletronicos@gmail.com e explicar a ocorrência. Produtos avariados com índicios de mau uso não serão trocados, o que inclui acidentes e utilização que vai contra as recomendações da fabricante, não está coberto na garantia.</p>
+                </div>
+            </div>
+        </div>  
+    </div>
+
+                                 <!-- #footer -->
+    <footer class="">
+        <div class="container-fluid" style="padding: 0px;">
+            <div class="row" >
+                <img src="img/footer.png" alt="">
+            </div>
+        </div>
+    </footer>
+
+<script src="https://kit.fontawesome.com/50ad9d6d7c.js" crossorigin="anonymous"></script>
+</body>
+</html>
